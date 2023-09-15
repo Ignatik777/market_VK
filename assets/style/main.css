@@ -1,0 +1,1177 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,3000,4000,5000,6000,7001,600&display=swap");
+/* line 4, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+
+@media screen and (max-width: 76.7rem) {
+  /* line 9, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  html {
+    font-size: 58%;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 9, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  html {
+    font-size: 62%;
+  }
+}
+
+/* line 18, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+body {
+  font-family: 'Rubik';
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 500;
+  background-color: #313840;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 30, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+main {
+  width: 100%;
+}
+
+/* line 33, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.container {
+  max-width: 118rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 38, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* line 42, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+ul {
+  list-style-type: none;
+}
+
+/* line 46, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.img__search-icon {
+  min-width: 2.4rem;
+}
+
+/* line 49, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.img__lk-icon {
+  min-width: 5rem;
+}
+
+/* line 52, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header {
+  min-height: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+/* line 56, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header__wrapper {
+  font-weight: 500;
+  font-size: 2.4rem;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 118rem;
+  display: flex;
+  align-items: center;
+}
+
+/* line 65, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header__wrapper-left {
+  max-width: 39.3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/* line 73, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header__navigation {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  max-width: 53.7rem;
+  margin-right: 15px;
+}
+
+/* line 78, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header__navigation_list {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 53.7rem;
+}
+
+@media screen and (max-width: 76.7rem) {
+  /* line 78, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .header__navigation_list {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 76.7rem) {
+  /* line 78, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .header__navigation_list {
+    display: flex;
+  }
+}
+
+/* line 90, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.header__navigation_list-link {
+  white-space: nowrap;
+  padding: .2rem;
+  display: flex;
+  align-items: center;
+}
+
+/* line 97, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.logo-link {
+  max-width: 24rem;
+  min-width: 5rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 97, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .logo-link {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 60rem) {
+  /* line 97, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .logo-link {
+    display: block;
+  }
+}
+
+/* line 109, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.city-block {
+  position: relative;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+
+/* line 118, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city {
+  display: flex;
+  align-items: center;
+  gap: 2.9rem;
+}
+
+/* line 123, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city-selected {
+  margin-bottom: 2.2rem;
+  color: #9CA69E;
+  align-items: center;
+  font-size: 1.6rem;
+  display: block;
+}
+
+/* line 130, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city-title {
+  font-weight: 500;
+  font-size: 1.6rem;
+  display: block;
+}
+
+/* line 134, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city-wrapper {
+  background: #36505D;
+  font-size: 1.6rem;
+  top: 0;
+  left: 0;
+  position: absolute;
+  transform: translate(0, 8%);
+  z-index: 999;
+  font-weight: 400;
+  min-width: 37rem;
+  max-width: 37rem;
+  display: none;
+  width: 100%;
+  padding: 2rem 1.4rem 1.7rem 2rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 134, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .dropdown__city-wrapper {
+    max-width: 15rem;
+    min-width: 15rem;
+  }
+}
+
+/* line 151, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city-list_wrapper {
+  gap: 2.6rem;
+  display: flex;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 151, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .dropdown__city-list_wrapper {
+    flex-direction: column;
+  }
+}
+
+/* line 156, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.dropdown__city-list {
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+/* line 161, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.modal-block {
+  display: flex;
+  align-items: center;
+  gap: 1.9rem;
+}
+
+/* line 166, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.form-wrapper {
+  position: relative;
+  color: #111;
+}
+
+/* line 170, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 181, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.active {
+  display: block;
+}
+
+
+
+/* line 183, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.modal-content {
+  color: #fff;
+  background-color: #313840;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* line 192, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.close {
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.tab{
+  display: flex;
+  gap: 2rem;
+  margin: 2rem auto 4rem auto;
+  justify-content: center;
+}
+
+/* line 197, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+#register-link {
+  color: #111 !important;
+}
+
+.tabcontent > button, .tablinks{
+  max-width: 15rem;
+  height: 3.6rem;
+  width: 100%;
+  border-radius: 2.5rem;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+
+.tablinks{
+  margin-bottom: 1rem;
+}
+
+.tabcontent > input{
+  margin-bottom: 1rem;
+  max-width: 20rem;
+  border-radius: 2.5rem;
+  height: 3.6rem;
+  width: 100%;
+  -webkit-border-radius: 2.5rem;
+  -moz-border-radius: 2.5rem;
+  -ms-border-radius: 2.5rem;
+  -o-border-radius: 2.5rem;
+}
+  
+
+/* line 199, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* line 206, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.btn-log {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 10rem;
+  height: 3.5rem;
+  border-radius: 2.5rem;
+}
+
+/* line 213, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.form-title {
+  margin: 5rem auto 0 auto;
+  font-size: 4.2rem;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 76.8rem) {
+  /* line 213, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .form-title {
+    margin-bottom: 2rem;
+  }
+}
+
+/* line 221, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.form-text {
+  text-align: center;
+  margin: 2rem auto 0 auto;
+}
+
+/* line 225, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.btn-log {
+  width: 100%;
+  max-width: 10rem;
+  height: 3.5rem;
+  border-radius: 2.5rem;
+}
+
+/* line 231, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.hero {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 234, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.hero__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 105.1rem;
+  width: 100%;
+  margin: 0 auto;
+  margin: 10.7rem 0 10rem 0;
+}
+
+/* line 242, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.hero__img {
+  display: block;
+  width: 100%;
+  max-width: 39.2rem;
+  min-width: 10rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 242, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .hero__img {
+    max-width: 20rem;
+  }
+}
+
+/* line 252, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.title__first {
+  font-size: 7.2rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+@media screen and (max-width: 76.7rem) {
+  /* line 252, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .title__first {
+    font-size: 6.5rem;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 252, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .title__first {
+    font-size: 4rem;
+  }
+}
+
+/* line 261, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.title__second {
+  font-size: 4rem !important;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 266, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.title__third {
+  color: #fff;
+  font-weight: 500;
+  font-size: 3.6rem !important;
+}
+
+/* line 270, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.title__four {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 276, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.center {
+  text-align: center;
+}
+
+/* line 279, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.prod-cards {
+  padding-bottom: 10rem;
+  max-width: 93rem;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 279, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .prod-cards {
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
+/* line 291, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.prod-cards__list {
+  margin-top: 5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  max-width: 16.2rem;
+}
+
+/* line 303, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.prod-cards__list-img {
+  width: 100%;
+  max-width: 16.2rem;
+}
+
+/* line 307, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.shops {
+  margin-bottom: 10rem;
+  width: 100%;
+  margin: 0 auto;
+  background: url("../img/shops__img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 315, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.position-box {
+  padding-left: 9.7rem;
+  margin: 8rem 0 19.5rem 0;
+}
+
+/* line 319, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 76.7rem) {
+  /* line 319, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .footer > .container {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 3rem;
+  }
+}
+
+/* line 330, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer {
+  padding: 2rem 0;
+}
+
+/* line 332, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__navigation {
+  max-width: 24.4rem;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+/* line 338, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__contacts {
+  font-size: 2.4rem;
+  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+/* line 344, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__contacts-title {
+  color: #9CA19A;
+}
+
+/* line 347, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__navigation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+/* line 353, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__social-link {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  text-align: center;
+}
+
+/* line 358, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.footer__social-link_list {
+  justify-content: center;
+  display: flex;
+  gap: 1.6rem;
+}
+
+/* line 363, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.color {
+  color: #9CA19A;
+}
+
+/* line 368, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 7rem;
+}
+
+/* line 374, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__tools {
+  margin-top: 5.7rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* line 380, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__btn-filter {
+  height: 3.6rem;
+  max-width: 17.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.8rem;
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 1.8rem;
+  font-weight: 500 !important;
+  border-radius: 2rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 380, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__btn-filter {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 380, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__btn-filter {
+    font-size: 1.8rem;
+  }
+}
+
+/* line 397, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__btn-filter > img {
+  max-width: 1.8rem;
+  width: 100%;
+  min-width: .5rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 397, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__btn-filter > img {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 397, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__btn-filter > img {
+    display: block;
+  }
+}
+
+/* line 405, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__search {
+  padding-left: 2rem;
+  max-width: 46.8rem;
+  width: 100%;
+  height: 3.6rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+}
+
+/* line 413, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__search::placeholder {
+  color: #9CA69E;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+/* line 418, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__find {
+  max-width: 10.4rem;
+  height: 3.6rem;
+  border-radius: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* line 425, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__layout {
+  display: flex;
+  max-width: 98rem;
+  gap: 4rem;
+  width: 100%;
+  margin: 1.7rem auto 0 auto;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 425, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__layout {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 425, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .stock__layout {
+    flex-wrap: nowrap;
+  }
+}
+
+/* line 436, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.stock__col-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* line 443, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.category__list {
+  padding: 1rem .3rem 1rem 1rem;
+  display: flex;
+  border-radius: 2rem;
+  flex-direction: column;
+  gap: .5rem;
+  max-width: 20rem;
+  width: 100%;
+  background: #D9D9D9;
+  color: #111;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 443, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .category__list {
+    flex-direction: row;
+    max-width: 48rem;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 443, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .category__list {
+    flex-direction: column;
+  }
+}
+
+/* line 461, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.category__list-item {
+  color: #9CA19A;
+}
+
+/* line 464, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.btn__category {
+  padding: .8rem 2.1rem;
+  border-radius: 2rem;
+  background: #D9D9D9;
+  color: #111;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+/* line 473, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.cards {
+  display: flex;
+  max-width: 74rem;
+  width: 100%;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+/* line 480, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card > ul {
+  width: 22%;
+}
+
+/* line 483, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 487, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.sbp {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 74rem;
+  margin-top: 3rem;
+  padding: 2rem 0 2rem 5.4rem;
+  background: url("../img/article-bg.png");
+}
+
+/* line 494, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.sbp__description {
+  font-weight: 400;
+  max-width: 25.4rem;
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+/* line 501, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.flex-box {
+  display: flex;
+  gap: .5rem;
+  align-items: center;
+  padding-bottom: 1.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+/* line 509, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.bg {
+  background: url("../img/pdor/bg.png");
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 5rem;
+}
+
+/* line 519, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.info {
+  text-align: center;
+}
+
+/* line 521, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.info__count {
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+
+/* line 525, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.info__text {
+  margin-bottom: 3rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* line 532, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.col-1 {
+  max-width: 33.1rem;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 6.5rem;
+  gap: 1rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 532, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .col-1 {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 532, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .col-1 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* line 549, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.description {
+  font-size: 2.4rem;
+  font-weight: 500;
+  width: 100%;
+  max-width: 79.6rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 549, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .description {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 549, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .description {
+    text-align-last: left;
+  }
+}
+
+/* line 559, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.par-s {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 559, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .par-s {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 559, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .par-s {
+    flex-direction: row;
+  }
+}
+
+/* line 568, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.title-simple {
+  font-size: 3.2rem;
+  font-weight: 500;
+}
+
+/* line 572, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.color-2 {
+  color: #99A739;
+}
+
+/* line 576, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.about-list {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-size: 2.4rem;
+}
+
+/* line 582, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.about-list__description {
+  align-items: center;
+  display: flex;
+  gap: 2.3rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 587, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .about-list > li > p {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 587, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .about-list > li > p {
+    text-align-last: left;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 595, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .block-1 {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 595, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .block-1 {
+    text-align: left;
+  }
+}
+
+/* line 600, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.color-3 {
+  color: #C3220E;
+}
+
+/* line 603, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.flex-box-2 {
+  display: flex;
+  padding-bottom: 10rem;
+}
+
+/* line 608, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.block-2 {
+  margin-left: 11.7rem;
+}
+
+@media screen and (max-width: 48rem) {
+  /* line 608, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .block-2 {
+    margin-left: 2rem;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 49rem) {
+  /* line 608, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+  .block-2 {
+    margin-left: 11.7rem;
+    text-align: left;
+  }
+}
+
+/* line 618, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.shops-bg {
+  background: url("../img/shops-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* line 626, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.mt-mb {
+  margin-top: 7.8rem;
+  margin-bottom: 7.6rem;
+}
+
+/* line 630, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.mb {
+  margin-bottom: 5rem;
+}
+
+/* line 634, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card {
+  width: 28rem;
+  height: 10rem;
+  margin: 5rem 2.3rem 10rem 2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #C3220E;
+}
+
+/* line 644, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card--orange {
+  background-color: #C54A06;
+}
+
+/* line 648, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card--green {
+  background-color: #99A739;
+}
+
+/* line 652, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card--blue {
+  background-color: #36505D;
+}
+
+/* line 656, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card__text {
+  text-align: center;
+  color: #fff;
+}
+
+/* line 661, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.card__heading {
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+/* line 665, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.box-description {
+  margin-top: 5rem;
+  justify-content: center;
+  display: flex;
+  gap: 5.4rem;
+  flex-wrap: wrap;
+}
+
+/* line 671, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.box-description__img {
+  max-width: 28rem;
+  width: 100%;
+}
+
+/* line 677, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.app {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+/* line 681, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.app-boc {
+  background: url("../img/");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 687, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.contacts {
+  margin-top: 5rem;
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  width: 100%;
+  background: url("../img/con-bg.png");
+  background-position: center center;
+  background-size: cover;
+}
+
+/* line 696, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.contact-us {
+  font-size: 4rem;
+  font-weight: 800;
+  width: 100%;
+}
+
+/* line 701, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.contact-us__text {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-top: .5rem;
+  margin-bottom: 5.8rem;
+}
+
+/* line 707, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.main-2 {
+  height: 100%;
+}
+
+/* line 710, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.contact-search {
+  max-width: 88rem;
+  width: 100%;
+  min-width: 20rem;
+  padding-left: 2rem;
+  outline: none;
+  border: none;
+  border-radius: 2rem;
+  height: 5rem;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 722, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.contact-search::placeholder {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #9CA69E;
+}
+
+/* line 727, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.gap {
+  gap: 2rem;
+  margin-top: 17rem;
+}
+
+/* line 731, ../../../../../Users/chekhxv/Desktop/практика/ignat/assets/style/SASS/main.sass */
+.con-img {
+  width: 100%;
+  max-width: 38rem;
+  min-width: 10rem;
+}
+
+.lk{
+  height: 100%;
+  padding-top: 3rem;
+}
+
+
+.user-info {
+  margin-top: 2rem;
+}
+
+.user-info p {
+  font-size: 2rem;
+}
+
+.user-info span {
+  font-weight: bold;
+}
+
+.order-history {
+  margin-top: 2rem;
+}
+
+.order-history h2 {
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=main.css.map */
